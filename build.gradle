@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+}
+
+group = 'com.virtualpc'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+application {
+    mainClass = 'com.virtualpc.Main'
+}
+
+repositories {
+    mavenCentral()
+}

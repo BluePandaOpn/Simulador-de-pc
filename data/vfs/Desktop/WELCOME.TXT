@@ -1,0 +1,2 @@
+Welcome to VOS Desktop.
+Use terminal commands: help, ls, cd, mkdir, touch, cat, clear.
