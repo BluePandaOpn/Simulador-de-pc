@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public final class Main {
+
     private Main() {
     }
 
@@ -18,6 +19,7 @@ public final class Main {
         VirtualMachine vm = new VirtualMachine(config);
 
         byte[] romImage;
+
         if (args.length > 0) {
             Path romPath = Path.of(args[0]);
             romImage = Files.readAllBytes(romPath);
